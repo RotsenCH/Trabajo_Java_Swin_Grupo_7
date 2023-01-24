@@ -1,13 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ventana_Componentes">
-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="GridLayoutManager">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="Panel_Principal" layout-manager="GridLayoutManager" row-count="4" column-count="7" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+      <xy x="20" y="20" width="3329" height="1337"/>
     </constraints>
     <properties/>
-    <border type="none"/>
-    <children/>
+    <border type="etched" title="Componentes"/>
+    <children>
+      <grid id="50b70" binding="Jpanel_Ejemplo" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="225" height="54"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none" title="JPanel"/>
+        <children>
+          <component id="c4911" class="javax.swing.JButton" binding="iniciarButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Iniciar"/>
+            </properties>
+          </component>
+          <component id="95463" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Para mostrar los demás ejemplos de los componentes&#10;debe dar click en el botón iniciar"/>
+            </properties>
+          </component>
+          <component id="deef5" class="javax.swing.JCheckBox" binding="JLabelCheckBox" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <hideActionText value="false"/>
+              <selected value="false"/>
+              <text value="JLabel"/>
+            </properties>
+          </component>
+          <component id="71ac9" class="javax.swing.JCheckBox" binding="JScrollPaneCheckBox" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="JScrollPane"/>
+            </properties>
+          </component>
+          <component id="4345" class="javax.swing.JCheckBox" binding="JProgressBarCheckBox" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="JProgressBar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="80611" binding="JLabel_Ejemplos" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="JLabel"/>
+        <children>
+          <component id="c86ac" class="javax.swing.JLabel" binding="JLabel_Ejemplo_Solo_Texto">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="313" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Solo texto"/>
+            </properties>
+          </component>
+          <component id="aef16" class="javax.swing.JLabel" binding="JLabel_Ejemplo_Imagen_Texto">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="100"/>
+                <preferred-size width="313" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Imagen y texto"/>
+            </properties>
+          </component>
+          <component id="47b31" class="javax.swing.JLabel" binding="JLabel_Ejemplo_Solo_Imagen">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="313" height="164"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Solo Imagen"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="70964" binding="JProgressBar" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="JProgressBar"/>
+        <children>
+          <component id="58c10" class="javax.swing.JProgressBar" binding="JProgressBar_Ejemplo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <stringPainted value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b5c89" binding="JScrollPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="JScrollPane"/>
+        <children>
+          <scrollpane id="fc47e" binding="JScrollPane_Ejemplo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="etched">
+              <font/>
+              <title-color color="-4473925"/>
+            </border>
+            <children>
+              <component id="85929" class="javax.swing.JLabel" binding="Imagen_Dentro">
+                <constraints/>
+                <properties>
+                  <text value="Aqui va una imagen"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
   </grid>
 </form>
