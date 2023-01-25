@@ -1,3 +1,6 @@
 # Trabajo_Java_Swin_Grupo_7
 
-[![imagen-2023-01-24-191256245.png](https://i.postimg.cc/D0TMz9bJ/imagen-2023-01-24-191256245.png)](https://postimg.cc/G8XQ7SKd)
+  ALEXIS CHASI
+  NESTOR CHUMANIA
+  
+  [![Whats-App-Image-2023-01-24-at-7-28-14-PM.jpg](https://i.postimg.cc/63jkNXPW/Whats-App-Image-2023-01-24-at-7-28-14-PM.jpg)](https://postimg.cc/R6tscj9y)
